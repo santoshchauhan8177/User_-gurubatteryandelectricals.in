@@ -12,9 +12,9 @@ import { NotificationsProvider } from "@/lib/hooks/use-notifications"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ShopHub - Your One-Stop Shopping Destination",
+  title: " Guru battery and electricals",
   description: "Find the best products at the best prices",
-    generator: 'v0.dev'
+   
 }
 
 export default function RootLayout({

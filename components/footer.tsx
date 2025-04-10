@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">ShopHub</h3>
+            <h3 className="text-lg font-semibold mb-4">Guru</h3>
             <p className="text-muted-foreground mb-4">
               Your one-stop destination for all your shopping needs. Quality products, great prices, and exceptional
               service.
@@ -104,15 +104,16 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 mt-0.5 text-primary" />
-                <span className="text-muted-foreground">123 Commerce St, Shopping City, SC 12345</span>
+                <span className="text-muted-foreground">Shop No-4, Shanti Nagar, Opposite Canara Bank, Lucknow</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+91 8400946427
+                </span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-primary" />
-                <span className="text-muted-foreground">support@shophub.com</span>
+                <span className="text-muted-foreground">gurubatteryandelectricals@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -121,7 +122,7 @@ export default function Footer() {
         <div className="border-t mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} ShopHub. All rights reserved.
+              &copy; {new Date().getFullYear()} Guru. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-sm text-muted-foreground hover:text-primary">

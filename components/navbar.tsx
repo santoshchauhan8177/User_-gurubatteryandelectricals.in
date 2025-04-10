@@ -58,7 +58,7 @@ export default function Navbar() {
             <nav className="flex flex-col gap-4">
               <div className="flex items-center justify-between mb-4">
                 <Link href="/" className="font-bold text-xl">
-                  ShopHub
+                  Guru
                 </Link>
                 <SheetClose asChild>
                   <Button variant="ghost" size="icon">
@@ -106,8 +106,8 @@ export default function Navbar() {
         </Sheet>
 
         <Link href="/" className="ml-4 md:ml-0 flex items-center gap-2">
-          <span className="font-bold text-xl hidden md:inline-block">ShopHub</span>
-          <span className="font-bold text-xl md:hidden">SH</span>
+          <span className="font-bold text-xl hidden md:inline-block">Guru</span>
+          <span className="font-bold text-xl md:hidden">GU</span>
         </Link>
 
         <nav className="mx-6 hidden md:flex items-center space-x-4 lg:space-x-6">
